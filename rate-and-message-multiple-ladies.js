@@ -25,9 +25,9 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
     // add all names you want to exclude
   ].map(n => n.toLowerCase())); // convert to lowercase for case-insensitive matching
 
-  const m1 = 'Max stars for you my friend! You are ameowzing! ₍^. .^₎⟆♥♥♥';
-  const m2 = 'You are ameowzing! ₍^. .^₎⟆♥♥♥'; //already won
-  const m3 = 'You are ameowzing! ₍^. .^₎⟆♥♥♥'; //168
+  const m1 = 'Max stars for my fabulous friend! I want to tell you that... the world isnt perfect, but your smile makes it better ฅ≽^•⩊•^≼ฅ';
+  const m2 = 'I want to tell you that... the world isnt perfect, but your smile makes it better ฅ≽^•⩊•^≼ฅ'; //already won
+  const m3 = 'I want to tell you that... the world isnt perfect, but your smile makes it better ฅ≽^•⩊•^≼ฅ'; //168
 
   const tabLabel = page._guid || 'T?'; //internal tab label in playwright
 
