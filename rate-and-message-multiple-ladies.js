@@ -21,13 +21,13 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
     'Aurora','Harley Quinn','Nesryn','VALERIA','azhar','Ferozekhan.lover','Abhigya','Queen C','Thynaël','HOPE HOD KETER','Ива Лени','Thyriah','Jane Jay','A Y A',
     'LIZYSOFLY','R A M O','jannat 123','BASSANT','Farooh','Rosie','Amara','HorseyHeather','waso','NOT_ban','Алёна','freesia','daphne','Kinsey','Shilo','Regina','Carol','Kallee','Paula','Baker','Farah Moan','mazikeen','Michelle',
     'Merida','timaa','Miss Barker','Oshyan','Betsy','yotha','Stella','Mys Nadine','Demeter','Lavander Dreams','Sarah anne','Cute girl','Natalie','Debby','kati','Crinnaa','СУЛАМИТА','mickalgill','Leylah','Valle','MsAphrodite','hajar',
-    'Elowen','Lady','V I R G O','LionLady','marym','Alexia','Devi','Aicha','Riley','Pina','Safa','WISSAM','Kathryn','Bayonetta','Gracyn','Cemi25','Eva','Abbatia','Quinz','nana__osaki','ᏔᎯ ᏞᎥᎠ','CatFromHell',
+    'Elowen','Lady','V I R G O','LionLady','marym','Alexia','Devi','Aicha','Riley','Pina','Safa','WISSAM','Kathryn','Bayonetta','Gracyn','Cemi25','Eva','Abbatia','Quinz','nana__osaki','ᏔᎯ ᏞᎥᎠ','jas','زوزو','MALOKA','Ania','Victors Secret',
     // add all names you want to exclude
   ].map(n => n.toLowerCase())); // convert to lowercase for case-insensitive matching
 
-  const m1 = 'Max stars for my fabulous friend! I want to tell you that... the world isnt perfect, but your smile makes it better ฅ≽^•⩊•^≼ฅ';
-  const m2 = 'I want to tell you that... the world isnt perfect, but your smile makes it better ฅ≽^•⩊•^≼ฅ'; //already won
-  const m3 = 'I want to tell you that... the world isnt perfect, but your smile makes it better ฅ≽^•⩊•^≼ฅ'; //168
+  const m1 = 'May all the good things find their way to you! Max stars for my beautiful friend 😍😘';
+  const m2 = 'May all the good things find their way to you! 😍😘'; //already won
+  const m3 = 'May all the good things find their way to you! 😍😘'; //168
 
   const tabLabel = page._guid || 'T?'; //internal tab label in playwright
 
