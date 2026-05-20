@@ -10,6 +10,15 @@ module.exports = {
     { tierId: 10, startPage: 36,  endPage: 42 }
   ], 
 
+  /*1: [
+    { tierId: 1, startPage: 1,   endPage: 590 },
+    { tierId: 1, startPage: 591,   endPage: 1180 },
+    { tierId: 1, startPage: 1181,  endPage: 1770 },
+    { tierId: 1, startPage: 1771,  endPage: 2360 },
+    { tierId: 1, startPage: 2361,  endPage: 2950 },
+    { tierId: 1, startPage: 2951,  endPage: 3535 }
+  ], */
+
   // ================= RUN 2 =================
   2: [
     { tierId: 10, startPage: 43, endPage: 49 },
