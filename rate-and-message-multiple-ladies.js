@@ -5,13 +5,11 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
   const excludedLadyNames = new Set([
     'Bella Swan','Veronica Park','smyle','Dee Dee Kelley','Indila','Zelda Hyrule','Her Majesty','Sakura Haruno','Wild Rose','Agent X','Giggles','Pania','Everest','RAMBØ XT','Katniss Everdeen',
     'lady liz','Lotus','LXUU_ABDE','Queen Taylen','Natasha Romanoff','Jodza','Joselia','Astoria','уσυηg кιηg','Red Queen','Lady Penelope','Scarlet Timberlake','Ashley','AVA','MELODY','AjS_StYlE',
-    'King Tyler','Nicole_Edgar','Jhosseline','Jewerline','Mpetty','nadia','Sara','Brianna','Jasmine','Natally','Лана','LaooyaA','Alexandra','Stefanie','katinka-jc','Gizem','Maya','Donna Rowe',
-    'Artemisa','Miškica','Octavia','Lady Jamie','اماندا N','stef','Emma','Shiry','margo1726','Veronica','Aelin Galathynius','elegent julei','The Pirate','lady Sophia','Serena','liya','Cathexo',
-    'Amelia Jacobs','Eman32','Kleophya','MistfulSky','Alira','AnnaRegina','Isabella','Athena','veronika','Chloe','Sylvia Lorena','Сензация','nade','denny','lady05','jood14','COCCOLE....',
+    'King Tyler','Chloe','Сензация','nade','denny','lady05','jood14','COCCOLE....',
     'Cayle','duushi','Louis','vicky','Hridita','хілларі','Alex','Анна','Lina','HOPE HOD KETER','НИЛО','Thynaël','Lana turner','Lamia','Elodeja','Kaoda Twinkle','Andreeasophia','Alexandra_Sunshine',
     'Anistemi','AitacJm','Abhigya','May Fernandes','LadyDeeDee','Cat Woman','Metal Princess','Queen of_girls','Ferozekhan.lover','Fenty','Annie','Harley Quinn','mykasa','Kahh','Auralis','melissa',
     'Renata','Athenaya','zani ali','tiki1','Mikasapisame','derya','Queen C','Αννα','Nesryn','Marki','FΣΛЯLΣSS','Didiqn','VALERIA','𝓐𝓷𝓷𝓪','Marina Fathy','azhar','Aurora','Katherine_Amara',
-    'Anastassia','CharShawn','CVRA','DOLCE MILK','darkknightfallen','Shenhe','Medyson','MI 997','Hellga','liseokk','gatsby_elle','Heeyat Sd','Zahra','Furiosa','Scarlett','MOON DANCER','Sea Smoke','Silver Gryphon',
+    'Anastassia','CharShawn','darkknightfallen','Shenhe','Medyson','MI 997','Hellga','liseokk','gatsby_elle','Heeyat Sd','Zahra','Furiosa','Scarlett','MOON DANCER','Sea Smoke','Silver Gryphon',
     'genesssa','TOMI xR','viksa','seyoung','ell','iskrus','Love_Damon','the legend','zizoo','sawako','Gracelan','danae','Susie','Lillian-Grace','Isra and Douaa','Jill','Soleilla','G.Giovanna','Mila','Ива Лени',
     'Doviliukas','Iro','My beautiful lady','Maryse','Reckless_ThinG','Danicawho','Surìe','Ever','Paris.Winter','G.Giovanna','perinaz','ash0101','Nata_','Ку-ку','xox19mama91xox','Yelyah Williams','moana-22',
     'billie','Ponnie','.Auksė','H W','phuong thảo','Aya','Kim Miu','Sekhmet','Denica','Bella Swan','хілларі','Alex','Katherine Auguste','Indila','Lina','НИЛО','Marki','Lana turner','Lamia','Инна','Ismben','Elodeja',
@@ -22,12 +20,13 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
     'LIZYSOFLY','R A M O','jannat 123','BASSANT','Farooh','Rosie','Amara','HorseyHeather','waso','NOT_ban','Алёна','freesia','daphne','Kinsey','Shilo','Regina','Carol','Kallee','Paula','Baker','Farah Moan','mazikeen','Michelle',
     'Merida','timaa','Miss Barker','Oshyan','Betsy','yotha','Stella','Mys Nadine','Demeter','Lavander Dreams','Sarah anne','Cute girl','Natalie','Debby','kati','Crinnaa','СУЛАМИТА','mickalgill','Leylah','Valle','MsAphrodite','hajar',
     'Elowen','Lady','V I R G O','LionLady','marym','Alexia','Devi','Aicha','Riley','Pina','Safa','WISSAM','Kathryn','Bayonetta','Gracyn','Cemi25','Eva','Abbatia','Quinz','nana__osaki','ᏔᎯ ᏞᎥᎠ','jas','زوزو','MALOKA','Ania','Victors Secret',
+    'laura','Ella',
     // add all names you want to exclude
   ].map(n => n.toLowerCase())); // convert to lowercase for case-insensitive matching
 
-  const m1 = 'May all the good things find their way to you! Max stars for my beautiful friend 😍😘';
-  const m2 = 'May all the good things find their way to you! 😍😘'; //already won
-  const m3 = 'May all the good things find their way to you! 😍😘'; //168
+  const m1 = 'Max stars! Sending you pawsitive energy ฅ⁠^⁠•⁠ﻌ⁠•⁠^⁠ฅ';
+  const m2 = 'Sending you pawsitive energy ฅ⁠^⁠•⁠ﻌ⁠•⁠^⁠ฅ'; //already won
+  const m3 = 'Sending you pawsitive energy ฅ⁠^⁠•⁠ﻌ⁠•⁠^⁠ฅ'; //168
 
   const tabLabel = page._guid || 'T?'; //internal tab label in playwright
 
