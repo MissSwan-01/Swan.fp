@@ -20,13 +20,13 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
     'LIZYSOFLY','R A M O','jannat 123','BASSANT','Farooh','Rosie','Amara','HorseyHeather','waso','NOT_ban','Алёна','freesia','daphne','Kinsey','Shilo','Regina','Carol','Kallee','Paula','Baker','Farah Moan','mazikeen','Michelle',
     'Merida','timaa','Miss Barker','Oshyan','Betsy','yotha','Stella','Mys Nadine','Demeter','Lavander Dreams','Sarah anne','Cute girl','Natalie','Debby','kati','Crinnaa','СУЛАМИТА','mickalgill','Leylah','Valle','MsAphrodite','hajar',
     'Elowen','Lady','V I R G O','LionLady','marym','Alexia','Devi','Aicha','Riley','Pina','Safa','WISSAM','Kathryn','Bayonetta','Gracyn','Cemi25','Eva','Abbatia','Quinz','nana__osaki','ᏔᎯ ᏞᎥᎠ','jas','زوزو','MALOKA','Ania','Victors Secret',
-    'laura','Ella',
+    'laura','Ella','Jurria','Gloria','welle','Radha','Rosalina','Funny Face','reyhan','Yuna',
     // add all names you want to exclude
   ].map(n => n.toLowerCase())); // convert to lowercase for case-insensitive matching
 
-  const m1 = 'Max stars! Sending you pawsitive energy ฅ⁠^⁠•⁠ﻌ⁠•⁠^⁠ฅ';
-  const m2 = 'Sending you pawsitive energy ฅ⁠^⁠•⁠ﻌ⁠•⁠^⁠ฅ'; //already won
-  const m3 = 'Sending you pawsitive energy ฅ⁠^⁠•⁠ﻌ⁠•⁠^⁠ฅ'; //168
+  const m1 = 'Max stars my friend! 🦉 You are owl-ways wonderful! >⩊<';
+  const m2 = '🦉 You are owl-ways wonderful my friend! >⩊<'; //already won
+  const m3 = '🦉 You are owl-ways wonderful my friend! >⩊<'; //168
 
   const tabLabel = page._guid || 'T?'; //internal tab label in playwright
 
