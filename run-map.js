@@ -10,15 +10,6 @@ module.exports = {
     { tierId: 10, startPage: 36,  endPage: 42 }
   ],
 
-  /*1: [
-    { tierId: 1, startPage: 1,   endPage: 100 },
-    { tierId: 1, startPage: 101,   endPage: 200 },
-    { tierId: 1, startPage: 201,  endPage: 300 },
-    { tierId: 1, startPage: 301,  endPage: 400 },
-    { tierId: 1, startPage: 401,  endPage: 500 },
-    { tierId: 1, startPage: 501,  endPage: 600 }
-  ], */
-
   // ================= RUN 2 =================
   2: [
     { tierId: 10, startPage: 43, endPage: 49 },
@@ -206,5 +197,14 @@ module.exports = {
    { tierId: 2, startPage: 229, endPage: 284 },
    { tierId: 2, startPage: 285, endPage: 340 }
   ]
+
+    /*21: [
+    { tierId: 1, startPage: 1,   endPage: 100 },
+    { tierId: 1, startPage: 101,   endPage: 200 },
+    { tierId: 1, startPage: 201,  endPage: 300 },
+    { tierId: 1, startPage: 301,  endPage: 400 },
+    { tierId: 1, startPage: 401,  endPage: 500 },
+    { tierId: 1, startPage: 501,  endPage: 600 }
+  ], */
 
 };
