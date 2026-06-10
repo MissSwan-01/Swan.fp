@@ -21,12 +21,13 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
     'Merida','timaa','Miss Barker','Oshyan','Betsy','yotha','Stella','Mys Nadine','Demeter','Lavander Dreams','Sarah anne','Cute girl','Natalie','Debby','kati','Crinnaa','СУЛАМИТА','mickalgill','Leylah','Valle','MsAphrodite','hajar',
     'Elowen','Lady','V I R G O','LionLady','marym','Alexia','Devi','Aicha','Riley','Pina','Safa','WISSAM','Kathryn','Bayonetta','Gracyn','Cemi25','Eva','Abbatia','Quinz','nana__osaki','ᏔᎯ ᏞᎥᎠ','jas','زوزو','MALOKA','Ania','Victors Secret',
     'laura','Ella','Jurria','Gloria','welle','Radha','Rosalina','Funny Face','reyhan','Yuna','Isabel','steph','maryann','Lovlee','Lana','-𝐓𝐫𝐢𝐤𝐢𝐳𝐳𝐙-','Yeluna Corazón','x_.sono.prvt_','sabrina13','Jade','VenusDoom','Mikel','Singin-Suzun','Lina lyn',
+    'Michel','אלכס','Uruguaya','Jaisita',
     // add all names you want to exclude
   ].map(n => n.toLowerCase())); // convert to lowercase for case-insensitive matching
 
-  const m1 = 'Happy weekend, beautiful! 🐻 You are bear-y pretty! Max stars ^^';
-  const m2 = 'Happy weekend, beautiful! 🐻 You are bear-y pretty!'; //already won
-  const m3 = 'Happy weekend, beautiful! 🐻 You are bear-y pretty!'; //168
+  const m1 = 'Max stars beautiful! 🐠 Have a fin-tastic day!';
+  const m2 = '🐠 Have a fin-tastic day beautiful!'; //already won
+  const m3 = '🐠 Have a fin-tastic day beautiful!'; //168
 
   const tabLabel = page._guid || 'T?'; //internal tab label in playwright
 
