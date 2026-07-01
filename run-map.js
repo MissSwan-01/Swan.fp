@@ -189,22 +189,22 @@ module.exports = {
    { tierId: 3, startPage: 251, endPage: 299 }
   ],
 
-  20: [
+  /*20: [
    { tierId: 2, startPage: 1,   endPage: 57 },
    { tierId: 2, startPage: 58,  endPage: 114 },
    { tierId: 2, startPage: 115, endPage: 171 },
    { tierId: 2, startPage: 172, endPage: 228 },
    { tierId: 2, startPage: 229, endPage: 284 },
    { tierId: 2, startPage: 285, endPage: 340 }
-  ]
+  ]*/
 
-    /*21: [
+    20: [
     { tierId: 1, startPage: 1,   endPage: 100 },
     { tierId: 1, startPage: 101,   endPage: 200 },
     { tierId: 1, startPage: 201,  endPage: 300 },
     { tierId: 1, startPage: 301,  endPage: 400 },
     { tierId: 1, startPage: 401,  endPage: 500 },
     { tierId: 1, startPage: 501,  endPage: 600 }
-  ], */
+  ], 
 
 };
