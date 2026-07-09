@@ -21,7 +21,7 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
     'Merida','timaa','Miss Barker','Oshyan','Betsy','yotha','Stella','Mys Nadine','Demeter','Lavander Dreams','Sarah anne','Cute girl','Natalie','Debby','kati','Crinnaa','СУЛАМИТА','mickalgill','Leylah','Valle','MsAphrodite','hajar',
     'Elowen','Lady','V I R G O','LionLady','marym','Alexia','Devi','Aicha','Riley','Pina','Safa','WISSAM','Kathryn','Bayonetta','Gracyn','Cemi25','Eva','Abbatia','Quinz','nana__osaki','ᏔᎯ ᏞᎥᎠ','jas','زوزو','MALOKA','Ania','Victors Secret',
     'laura','Ella','Jurria','Gloria','welle','Radha','Rosalina','Funny Face','reyhan','Yuna','Isabel','steph','maryann','Lovlee','Lana','-𝐓𝐫𝐢𝐤𝐢𝐳𝐳𝐙-','Yeluna Corazón','x_.sono.prvt_','sabrina13','Jade','VenusDoom','Mikel','Singin-Suzun','Lina lyn',
-    'Michel','אלכס','Uruguaya','Jaisita','X_Haiko_X','Saddalyn','sa.ahil','MintyRose','kaya21','baraa bf','mnijeonhaneen','TheResa75','Méllisa','Lady Abbie Queen','Abc','ساجده','Sharisse','...','Pamuk','Maya',
+    'Michel','אלכס','Uruguaya','Jaisita','X_Haiko_X','Saddalyn','sa.ahil','MintyRose','kaya21','baraa bf','mnijeonhaneen','TheResa75','Méllisa','Lady Abbie Queen','Abc','ساجده','Sharisse','...','Pamuk','Maya','R H A E N Y R A',
     // add all names you want to exclude
   ].map(n => n.toLowerCase())); // convert to lowercase for case-insensitive matching
 
