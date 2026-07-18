@@ -22,13 +22,13 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
     'Elowen','Lady','V I R G O','LionLady','marym','Alexia','Devi','Aicha','Riley','Pina','Safa','WISSAM','Kathryn','Bayonetta','Gracyn','Cemi25','Eva','Abbatia','Quinz','nana__osaki','ᏔᎯ ᏞᎥᎠ','jas','زوزو','MALOKA','Ania','Victors Secret',
     'laura','Ella','Jurria','Gloria','welle','Radha','Rosalina','Funny Face','reyhan','Yuna','Isabel','steph','maryann','Lovlee','Lana','-𝐓𝐫𝐢𝐤𝐢𝐳𝐳𝐙-','Yeluna Corazón','x_.sono.prvt_','sabrina13','Jade','VenusDoom','Mikel','Singin-Suzun','Lina lyn',
     'Michel','אלכס','Uruguaya','Jaisita','X_Haiko_X','Saddalyn','sa.ahil','MintyRose','kaya21','baraa bf','mnijeonhaneen','TheResa75','Méllisa','Lady Abbie Queen','Abc','ساجده','Sharisse','...','Pamuk','Maya','R H A E N Y R A','Sami',
-    'katrina','QUEEN OF MEAN','alain dz','miri0','Melina',
+    'katrina','QUEEN OF MEAN','alain dz','miri0','Melina','𝐓𝐚𝐧𝐉𝐢𝐫𝐨𝐮','Chantilly Lace',
     // add all names you want to exclude
   ].map(n => n.toLowerCase())); // convert to lowercase for case-insensitive matching
 
-  const m1 = 'Sending love beautiful! 🍉 You are one in a melon!! (˘ ³˘)♥';
-  const m2 = 'Sending love beautiful! 🍉 You are one in a melon!! (˘ ³˘)♥'; //already won
-  const m3 = 'Sending love beautiful! 🍉 You are one in a melon!! (˘ ³˘)♥'; //168
+  const m1 = 'Have a happy weekend my friend! 🍩 Donut forget you are awesome (ദ്ദി˙ᗜ˙)';
+  const m2 = 'Have a happy weekend my friend! 🍩 Donut forget you are awesome (ദ്ദി˙ᗜ˙)'; //already won
+  const m3 = 'Have a happy weekend my friend! 🍩 Donut forget you are awesome (ദ്ദി˙ᗜ˙)'; //168
 
   const tabLabel = page._guid || 'T?'; //internal tab label in playwright
 
